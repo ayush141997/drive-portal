@@ -1,0 +1,20 @@
+{
+    "web": {
+        "client_id": "989949358380-ipdo3n9s0bmrmrljpfumb362qg209o90.apps.googleusercontent.com",
+        "project_id": "fireworld-bd216",
+        "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+        "token_uri": "https://oauth2.googleapis.com/token",
+        "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+        "client_secret": "qrmZoc0s3jLn7qEPO2N8lRMY",
+        "redirect_uris": [
+            "https://fireworld-bd216.firebaseapp.com/__/auth/handler",
+            "https://fireworld-bd216.web.app/__/auth/handler"
+        ],
+        "javascript_origins": [
+            "http://localhost",
+            "http://localhost:5000",
+            "https://fireworld-bd216.firebaseapp.com",
+            "https://fireworld-bd216.web.app"
+        ]
+    }
+}

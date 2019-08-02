@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Arrival Form</title>
+    <style>
+        input[type=text],
+        select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type=submit] {
+            width: 100%;
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+
+        div {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Registeraion Form</h1>
+
+    <div>
+        <form action="/registerCandidate" method="post">
+            Name :<input type="text" placeholder="Enter your name" name="name">
+            Role :<input type="text" placeholder="Enter your Role" name="role">
+            Specialization:<input type="text" placeholder="Enter your Specialization" name="specialization">
+            Experiance :<input type="text" placeholder="Enter your Experiance" name="exp">
+            Company :<input type="text" placeholder="Enter your Company" name="company">
+            Notice Period :<input type="text" placeholder="Enter your Notice Period" name="notice">
+            Joining Timeline :<input type="text" placeholder="Enter your Joining Timeline" name="join">
+            Email :<input type="text" placeholder="Enter your Email" name="email">
+            Contact :<input type="text" placeholder="Enter your Contact" name="contact">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
